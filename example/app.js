@@ -1,3 +1,6 @@
 var g = G$("Mauricio", "Mercado");
 
-console.log(g);
+g
+    .greet()
+    .setLang("es")
+    .greet(true);
